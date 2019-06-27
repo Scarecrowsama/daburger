@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as burgerBuilderActions from '../../store/actions/index';
-import Aux from '../../hoc/Auxiliar/Aux';
+import Aux from '../../hoc/Auxiliar/Auxiliary';
 import axios from '../../axios-orders';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
